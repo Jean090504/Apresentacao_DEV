@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    height: 100vw;
+    background-color: #88cdf6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 128px;
+    color: white;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+h2{
+    text-align: center;
+}
+
+.subtitulo1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2c82b5;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.subtitulo2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #88cdf6;
+    background-color: white;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 4px 8px;
+    transition: 0.7s;
+}
+
+.subtitulo2:hover{
+    padding-left: 128px;
+
+}
+
+.titulo:hover{
+    background-color: #bce5ff;
+}
+
+body:has(.subtitulo2:hover) {
+    background-color: black;
+}
+
+/* Filho */
+.link img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;       
+    background-color: #88cdf6; 
+    padding: 4px;  
+    
+}
+
+/* Pai */
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;  
+    gap: 16px;
+}
+
+
+
+
+

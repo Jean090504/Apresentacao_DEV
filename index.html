@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Aula 1</title>
+</head>
+<body>
+    <main>
+        <h1 class="titulo">Jean Costa</h1>
+        <h2>
+            <span class="subtitulo1">Front-end</span>
+            <span class="subtitulo2">Developer</span>
+        </h2>
+        <div class="links">
+            <a href="https://www.instagram.com/jeancosta04/" target="_blank" class="link">
+                <img src="/Jean-LIMA/img/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/in/jean-costa-834aa9250/" target="_blank" class="link">
+                <img src="/Jean-LIMA/img/linkedin.png" alt="Linkedin">
+            </a>
+
+            <a href="https://contate.me/5511953431041" target="_blank" class="link">
+                <img src="/Jean-LIMA/img/whatsapp.png" alt="Whatsapp">
+            </a>
+        </div>
+    </main>
+
+    <script>
+        document.querySelector('.subtitulo2').addEventListener('mouseenter', () => {
+            document.body.style.backgroundColor = 'black';
+        });
+
+        document.querySelector('.subtitulo2').addEventListener('mouseleave', () => {
+            document.body.style.backgroundColor = '#88cdf6';
+        });
+    </script>
+</body>
+</html>
